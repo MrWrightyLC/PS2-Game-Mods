@@ -32,12 +32,6 @@ description=Allow online games to be started even you're the only player in the 
 patch=0,EE,2019E758,extended,00000000
 patch=0,EE,201D5318,extended,00000000
 
-[Driving air control]
-author=Nehalem
-description=Enables aftertouch air control in offline modes
-patch=0,EE,2020A514,extended,0004B02D
-patch=0,EE,2020A52C,extended,00000000
-
 [No HUD]
 author=Nehalem
 description=Completely turn off the HUD display
@@ -265,3 +259,20 @@ patch=0,EE,201338CC,extended,24020001
 patch=0,EE,20133930,extended,24040003
 patch=0,EE,20133970,extended,24040004
 patch=0,EE,201339D0,extended,24030009
+
+[Driving Air Control Fix]
+author=Nehalem
+description=Fix driving air control not applied properly after first crash
+patch=0,EE,20205E1C,extended,AC8014E4
+
+[Offline Driving Air Control]
+author=Nehalem
+description=Enable driving air control in offline modes (crash mode excluded)
+patch=0,EE,2020A504,extended,0C129DC4
+patch=0,EE,204A7710,extended,90453951
+patch=0,EE,204A7714,extended,3C010055
+patch=0,EE,204A7718,extended,9021BB9F
+patch=0,EE,204A771C,extended,00360825
+patch=0,EE,204A7720,extended,2C210001
+patch=0,EE,204A7724,extended,03E00008
+patch=0,EE,204A7728,extended,00A12825
