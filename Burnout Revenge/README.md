@@ -2,7 +2,6 @@
 
 Mods I made for the PlayStation 2 version of **Burnout Revenge**.\
 The mods listed below aren't fully available for all regions, please check the `.pnach` file of your game region for a definitive list.\
-For Xbox 360 mods go to the [XB360](https://github.com/Nahelam/PS2-Game-Mods/tree/main/Burnout%20Revenge/XB360) folder.
 
 ## Mod List
 - [Single Event Mod](https://github.com/Nahelam/PS2-Game-Mods/tree/main/Burnout%20Revenge/Single%20Event%20Mod)
@@ -14,7 +13,6 @@ For Xbox 360 mods go to the [XB360](https://github.com/Nahelam/PS2-Game-Mods/tre
 - Camera speed shake (disable, super, hyper, uber) **(only one at once)**
 - Selectable crash vehicles in all modes
 - Allow online games to be started even you're the only player in the lobby (Solonline)
-- Offline car air control
 - Disable rating HUD display
 - Disable game mode HUD display
 - Enable timer in race events **(only one at once)**
@@ -43,3 +41,6 @@ For Xbox 360 mods go to the [XB360](https://github.com/Nahelam/PS2-Game-Mods/tre
 - Toggle menus rendering (R3+DPAD LEFT enable, R3+DPAD RIGHT disable)
 - Press SELECT to force the player car to crash
 - Set profile progression to 100% (persistent after save + Dominator Assassin & Madden Challenge Bus unlocked)
+- Fix driving air control not applied properly after first crash
+- Enable driving air control in offline modes (crash mode excluded)
+- Driving into props no longer gives air
