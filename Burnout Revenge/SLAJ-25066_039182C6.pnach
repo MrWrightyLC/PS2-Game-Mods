@@ -282,3 +282,10 @@ patch=0,EE,204A769C,extended,00360825
 patch=0,EE,204A76A0,extended,2C210001
 patch=0,EE,204A76A4,extended,03E00008
 patch=0,EE,204A76A8,extended,00A12825
+
+[Props Air Fix]
+author=Nehalem
+description=Driving into props no longer gives air
+patch=0,EE,201FABCC,extended,00000000
+patch=0,EE,201F9D70,extended,4BC4333C
+patch=0,EE,201F9D74,extended,00000000
